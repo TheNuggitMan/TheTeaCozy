@@ -1,6 +1,14 @@
 @media only screen and (max-width: 480px) {
-    li {
-        font-size: 13px;
+    .tinyMenu {
+        display: inline-block;
+    }
+    .normalMenu {
+        display: none;
+    }
+}
+@media only screen and (min-width: 480px) {
+    .tinyMenu {
+        display: none;
     }
 }
 
