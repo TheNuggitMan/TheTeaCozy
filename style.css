@@ -1,5 +1,5 @@
 body {
-    margin: 0 10px;
+    margin: 0;
     background-color: black;
     color: seashell;
     font-family: Helvetica;
@@ -8,11 +8,13 @@ body {
 }
 
 main {
+    position: relative;
+    top: 70px;
+    margin: 0 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 * {
@@ -38,7 +40,7 @@ nav {
 
 nav li{
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 li a {
@@ -48,11 +50,7 @@ li a {
 
 .logo {
     height: 50px;
-}
-
-main {
-    position: relative;
-    top: 70px;
+    margin-left: 10px;
 }
 
 .mBottom {
