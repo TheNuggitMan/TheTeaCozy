@@ -1,0 +1,141 @@
+body {
+    margin: 0 10px;
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica;
+    font-size: 22px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+* {
+    opacity: 0.9;
+    box-sizing: border-box;
+}
+
+header {
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+li a {
+    text-decoration: underline;
+    color: seashell;
+}
+
+.logo {
+    height: 50px;
+}
+
+main {
+    position: relative;
+    top: 70px;
+}
+
+.mBottom {
+    margin-bottom: 5%;
+}
+
+#mission {
+    background-image: url("img/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner {
+    background-color: black;
+    width: 100%;
+}
+
+#featured {
+    margin-bottom:
+}
+
+#featuredContainer {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1000px;
+}
+
+figure h4 {
+    margin: 0px;
+    margin-top: 8px;
+}
+
+figure {
+    margin: 15px 15px
+}
+
+figure img {
+    height: 200px;
+    width: 300px;
+}
+
+#locations {
+    background-image: url("img/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-size:cober;
+    height: 550px;
+    width: 1200px;
+    padding: 30px;
+}
+
+#locationContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.locationBox {
+    width: 300px;
+    min-height: 300px;
+    padding: 0px 10px;
+    margin: 15px 40px;
+    background-color: black;
+    opacity: 1;
+}
+
+#contact {
+    height: 200px;
+    width: 100%;
+}
+
+footer {
+    display: block;
+    margin-left: 20px;
+    float: left;
+}
+
+footer h5 {
+    padding-top: 30px;
+}
